@@ -6,3 +6,4 @@ const manager = new ShardingManager('./src/bot.js', { token });
 
 manager.on('shardCreate', (shard) => Logger.info(`Launched shard n° ${shard.id}`));
 manager.spawn();
+

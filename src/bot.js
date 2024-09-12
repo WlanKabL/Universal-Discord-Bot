@@ -3,7 +3,8 @@ const launchTimestamp = Date.now();
 const Discord = require('discord.js-light');
 const Logger = require('./core/utils/logger');
 const eventManager = require('./core/event-handler/event-handler');
-const { token, intents } = require('./config/bot-config.json');
+const bots = require('./config/bot-config.json');
+const 
 
 // Create the Discord client with the appropriate options
 const client = new Discord.Client({
@@ -32,3 +33,4 @@ client.login(token)
       Logger.error('Error logging into Discord', err);
       process.exit();
    });
+

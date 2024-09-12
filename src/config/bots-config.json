@@ -1,0 +1,22 @@
+{
+    "bot1": {
+        "name": "Bot1 name",
+        "status": "Bot1 status",
+        "statusType": "Bot1 status type, either 'PLAYING', 'LISTENING' or 'WATCHING'",
+        "token": "",
+        "intents": [
+            "GUILDS",
+            "GUILD_MESSAGES"
+        ]
+    },
+    "bot2": {
+        "name": "Bot2 name",
+        "status": "Bot2 status",
+        "statusType": "Bot2 status type, either 'PLAYING', 'LISTENING' or 'WATCHING'",
+        "token": "",
+        "intents": [
+          "GUILDS",
+          "GUILD_MESSAGES"
+        ]
+      }
+}
